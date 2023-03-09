@@ -3,13 +3,13 @@ body.index{
     padding: 0;
 }
 
-nav {
-    position: absolute;
-    width: 100%;
-    background-color: black;
-    height: 83px;
+/* style for firstPage div container*/
+.firstPage{
+    background: linear-gradient(180deg, #05331C 0%, #00C3CE 100%);
+    height: 1024px;
 }
 
+/* navigation menu  */
 .index ul{
     margin-top: 0%;
     display: flex;
@@ -17,10 +17,11 @@ nav {
     list-style: none;
 }
 
+/* menu texts */
 .index li{
     display: inline-block;
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 500;
     font-size: 23px;
@@ -30,6 +31,66 @@ nav {
     border: 2px solid white;
 }
 
+/* home text alignment to center */
 #home{
     text-align: center;
+}
+
+/* stye for image logo */
+.logoContainer{
+    margin: auto;
+    margin-top: -40px;
+
+    height: 300px;
+    width: 396px;
+    /* background-color: rgb(255, 255, 255); */
+
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 396px 396px;
+}
+
+/* Sagar Distillery text div container */
+.textContainer{
+    margin: auto;
+    margin-top: -2em;
+    height: auto;
+    width: auto;
+    /* background-color: aliceblue; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Sagar Distillery heading text */
+.textContainer h1{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+/* Sagar Distillery paragraph text */
+.textContainer p{
+    font-family: 'Arsenal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* Distribution button */
+.buttonDist{
+    margin: auto;
+    margin-top: 3em;
+    width: 250px;
+    height: 75px;
+    background-color: #05331C;
+    border: 1px solid #FFFFFF;
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+/* Distribution text heading */
+.buttonDist h2{
+    margin-left: 1em;
 }
