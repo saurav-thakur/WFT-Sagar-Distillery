@@ -1,0 +1,25 @@
+.container{
+    margin-left: 200px;
+    margin-top: 200px;
+    border: 10px solid black;
+    width: 1100px;
+}
+
+.grey_wolf_heading{
+    color: red;
+}
+.grey_wolf_paragraph{
+    background-position-x: center; 
+    margin-right: 700px;
+    border: 1px solid red;
+}
+
+.grey_wolf_img{
+    width: 525px;
+    height: 525px;
+    float: right;
+    position: relative;
+    background-color: red;
+    margin-bottom: 1000px;
+
+}
