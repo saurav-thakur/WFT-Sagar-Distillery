@@ -1,3 +1,4 @@
+
 body.index{
     margin: 0;
     padding: 0;
@@ -93,4 +94,41 @@ body.index{
 /* Distribution text heading */
 .buttonDist h2{
     margin-left: 1em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.second_page{
+    margin: 0px;
+    padding: 0px;
+    height: 1024px;
+    background-color: #00C3CE;
+    
+}
+.container_second{
+    margin-left: 200px;
+    column-count:1;
+}
+
+.grey_wolf_heading{
+
+    color: white;
+    font-family: 'Arsenal', sans-serif;
+    padding-top: 300px;
+
+}
+.grey_wolf_paragraph{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+
+}
+
+.grey_wolf_img{
+    width: 1000px;
+    height: 1000px;
+    float: right;
+
 }
