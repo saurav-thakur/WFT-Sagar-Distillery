@@ -1,0 +1,35 @@
+body.index{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    height: 83px;
+}
+
+.index ul{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.index li{
+    display: inline-block;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+
+    width: 230px;
+    border: 2px solid white;
+}
+
+#home{
+    text-align: center;
+}
