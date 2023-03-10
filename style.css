@@ -11,7 +11,9 @@ body.index{
 }
 
 /* navigation menu  */
-.index ul{
+ul.indexUl{
+    height: 54px;
+
     margin-top: 0%;
     display: flex;
     justify-content: center;
@@ -19,9 +21,10 @@ body.index{
 }
 
 /* menu texts */
-.index li{
+li.indexLi{
     display: inline-block;
-    color: white;
+    margin-top: 7px;
+    
     font-family: 'Arial';
     font-style: normal;
     font-weight: 500;
@@ -29,13 +32,60 @@ body.index{
     line-height: 34px;
 
     width: 230px;
-    border: 2px solid white;
+
+    cursor: pointer;
 }
+
+li.indexLi a{
+    text-decoration: none;
+    color: white;
+}
+
+/* li.indexLi:hover{
+    background-color:rgb(1, 114, 97);
+} */
 
 /* home text alignment to center */
 #home{
     text-align: center;
 }
+
+/*----------------------------------------------------------*/
+.dropdown-item{
+    background-color: rgb(1, 114, 97);
+    display: none;
+
+    margin-top: 13px;
+}
+
+ul#ourBrands.dropdown-item{
+    width: 230px;
+    height: auto;
+
+    margin-left: 664.5px;
+}
+
+.dropdown-item a{
+    width: 230px;
+    line-height: 50px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    display: block;
+}
+
+.dropdown-item a:hover{
+    background-color: #05331C;
+    color: #00C3CE;
+}
+
+#ourBrands:hover 
+.dropdown-item{
+    display: block;
+}
+/*---------------------------------------------------------------*/
 
 /* stye for image logo */
 .logoContainer{
@@ -96,10 +146,7 @@ body.index{
     margin-left: 1em;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
+
 .second_page{
     margin: 0px;
     padding: 0px;
@@ -108,27 +155,25 @@ body{
     
 }
 .container_second{
-    margin-left: 200px;
     column-count:1;
+    width: 100%;
 }
 
 .grey_wolf_heading{
-
+    margin-left: 5em;
     color: white;
     font-family: 'Arsenal', sans-serif;
     padding-top: 300px;
-
 }
-.grey_wolf_paragraph{
 
+.grey_wolf_paragraph{
+    margin-left: 8em;
     font-family: 'Poppins', sans-serif;
     font-size: larger;
-
 }
 
 .grey_wolf_img{
+    float: right;
     width: 1000px;
     height: 1000px;
-    float: right;
-
 }
