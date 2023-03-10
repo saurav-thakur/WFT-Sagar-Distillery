@@ -132,3 +132,53 @@ body{
     float: right;
 
 }
+
+.third_page{
+    /* position: absolute; */
+/* width: 1440px; */
+/* height: 1024px; */
+left: 0px;
+top: 2045px;
+background: linear-gradient(180deg, #00C3CE 0%, #C79C29 30.56%, #C9A954 100%);
+}
+
+.container_third{
+    margin-left: 100px;
+    column-count:1;
+}
+
+
+
+
+.royal_blue_img{
+    float: right;
+    width: 500px;
+    height: 900px;
+    /* border: 1px solid black; */
+    /* left: calc(50% - 554px/2 + 350px); */
+    /* bottom: 0px; */
+    
+}
+
+.royal_blue_paragraph{
+    margin-top: 100px;
+    font-family: 'Arsenal', sans-serif Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    
+}
+
+.royal_blue_video{
+    width: 35.5%;
+    /* box-shadow: 5px 5px 2px 2px #242424; */
+    margin-top: 180px;
+    margin-left: 200px;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.64);
+    box-shadow: 5px 5px 25px 3px #242424;
+    border-radius: 10px;
+}
+
+
