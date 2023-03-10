@@ -182,3 +182,65 @@ background: linear-gradient(180deg, #00C3CE 0%, #C79C29 30.56%, #C9A954 100%);
 }
 
 
+.fourth_page{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(180deg, #C9A954 0%, rgba(201, 169, 84, 0) 100%);
+}
+
+
+.glass_image{
+    width: 400px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(images/glass.png);
+    float: right;
+    border-top-left-radius: 10%;
+    margin-top: 100px;
+    
+    /* margin-left: 800px; */
+}
+
+.container_fourth{
+    margin: 100px;
+}
+
+.our_history_heading{
+    position: relative;
+    margin-top: 200px;
+    justify-content: center;
+    font-family: 'Arsenal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #000000;
+}
+
+.our_history_paragraph{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #232323;
+}
+
+.read_more_button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    background: #585858;
+    color: #FFFFFF;
+    width: 233px;
+    height: 60px;
+    border: none;
+}
